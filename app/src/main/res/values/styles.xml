@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#757575</item>
+    </style>
+
+    <!-- Setting style of textView -->
+    <style name="StyleTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="StyleTextView1" parent="StyleTextView">
+        <item name="android:textSize">28dp</item>
+        <item name="android:paddingTop">40dp</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StyleTextView2" parent="StyleTextView">
+        <item name="android:textSize">24dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingLeft">40dp</item>
+    </style>
+
+</resources>
