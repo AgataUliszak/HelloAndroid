@@ -2,12 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background2"
+<<<<<<< HEAD
+=======
+    android:orientation="vertical"
+>>>>>>> Adding dimen file and background
     tools:context="com.example.android.helloandroid.MainActivity">
+
     <ImageView
+<<<<<<< HEAD
         android:src="@drawable/udacity2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,19 +20,25 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:scaleType="center" />
+=======
+        style="@style/ImageStyle"
+        android:scaleType="center"
+        android:src="@drawable/udacity2" />
 
-        <TextView
-            style="@style/StyleTextView1"
-            android:text="@string/name"
-            />
+    <TextView
+        style="@style/StyleTextView1"
+        android:text="@string/name" />
+>>>>>>> Adding dimen file and background
+
     <TextView
         style="@style/StyleTextView2"
+        android:autoLink="phone"
         android:drawableLeft="@drawable/phone"
-        android:text="@string/phone"
-        android:autoLink="phone"/>
+        android:text="@string/phone" />
 
     <TextView
         style="@style/StyleTextView2"
+<<<<<<< HEAD
         android:text="@string/address"
         android:drawableLeft="@drawable/place"
         android:lineSpacingExtra="2dp" />
@@ -37,4 +48,15 @@
         android:text="@string/web"
         android:drawableLeft="@drawable/mail"
         android:autoLink="web" />
+=======
+        android:drawableLeft="@drawable/place"
+        android:lineSpacingExtra="2dp"
+        android:text="@string/address" />
+
+    <TextView
+        style="@style/StyleTextView2"
+        android:autoLink="web"
+        android:drawableLeft="@drawable/mail"
+        android:text="@string/web" />
+>>>>>>> Adding dimen file and background
 </LinearLayout>

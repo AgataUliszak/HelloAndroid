@@ -2,6 +2,10 @@
     <string name="app_name">HelloAndroid</string>
     <string name="phone">" 650-555-5555"</string>
     <string name="web">" www.udacity.com"</string>
+<<<<<<< HEAD
     <string name="address">" 2465 Latham St,\n Mountain View, CA 94043 "</string>
+=======
+    <string name="address">" 2465 Latham St,\n Mountain View,\nCA 94043 "</string>
+>>>>>>> Adding dimen file and background
     <string name="name">Udacity</string>
 </resources>

@@ -8,6 +8,17 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+<<<<<<< HEAD
+=======
+    <style name="ImageStyle">
+       <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/padding_top_3</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin</item>
+    </style>
+
+>>>>>>> Adding dimen file and background
     <!-- Setting style of View -->
     <style name="StyleTextView">
         <item name="android:layout_width">match_parent</item>
