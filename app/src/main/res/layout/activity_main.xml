@@ -5,30 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background2"
-<<<<<<< HEAD
-=======
     android:orientation="vertical"
->>>>>>> Adding dimen file and background
     tools:context="com.example.android.helloandroid.MainActivity">
 
     <ImageView
-<<<<<<< HEAD
         android:src="@drawable/udacity2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/padding_top_3"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-        android:scaleType="center" />
-=======
-        style="@style/ImageStyle"
-        android:scaleType="center"
-        android:src="@drawable/udacity2" />
+        style="@style/ImageStyle" />
 
     <TextView
         style="@style/StyleTextView1"
         android:text="@string/name" />
->>>>>>> Adding dimen file and background
 
     <TextView
         style="@style/StyleTextView2"
@@ -38,25 +27,14 @@
 
     <TextView
         style="@style/StyleTextView2"
-<<<<<<< HEAD
         android:text="@string/address"
         android:drawableLeft="@drawable/place"
-        android:lineSpacingExtra="2dp" />
+        android:lineSpacingExtra="@dimen/extra_spacing" />
 
     <TextView
         style="@style/StyleTextView2"
         android:text="@string/web"
         android:drawableLeft="@drawable/mail"
         android:autoLink="web" />
-=======
-        android:drawableLeft="@drawable/place"
-        android:lineSpacingExtra="2dp"
-        android:text="@string/address" />
 
-    <TextView
-        style="@style/StyleTextView2"
-        android:autoLink="web"
-        android:drawableLeft="@drawable/mail"
-        android:text="@string/web" />
->>>>>>> Adding dimen file and background
 </LinearLayout>

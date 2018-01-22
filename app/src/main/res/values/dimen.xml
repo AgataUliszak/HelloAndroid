@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<<<<<<< HEAD
-    <dimen name="padding_top_3">80dp</dimen>
-=======
-    <dimen name="padding_top_3">70dp</dimen>
->>>>>>> Adding dimen file and background
+    <dimen name="padding_top_3">65dp</dimen>
     <dimen name="padding_top_2">40dp</dimen>
     <dimen name="padding_top_1">20dp</dimen>
     <dimen name="padding_left_2">40dp</dimen>
     <dimen name="text_size_24">24dp</dimen>
     <dimen name="text_size_28">28dp</dimen>
-<<<<<<< HEAD
-=======
     <dimen name="layout_margin">40dp</dimen>
-    <dimen name="text_size_28">28dp</dimen>
->>>>>>> Adding dimen file and background
-
+    <dimen name="extra_spacing">2dp</dimen>
 </resources>
