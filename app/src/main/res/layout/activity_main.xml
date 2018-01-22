@@ -5,13 +5,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFECB3"
+    android:background="@drawable/background2"
     tools:context="com.example.android.helloandroid.MainActivity">
     <ImageView
         android:src="@drawable/udacity2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="80dp"
+        android:paddingTop="@dimen/padding_top_3"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:scaleType="center" />
@@ -28,14 +28,13 @@
 
     <TextView
         style="@style/StyleTextView2"
-        android:text="@string/web"
-        android:drawableLeft="@drawable/mail"
-        android:autoLink="web"
-        />
+        android:text="@string/address"
+        android:drawableLeft="@drawable/place"
+        android:lineSpacingExtra="2dp" />
 
     <TextView
         style="@style/StyleTextView2"
-        android:text="@string/address"
-        android:drawableLeft="@drawable/place"
-        android:lineSpacingExtra="2sp" />
+        android:text="@string/web"
+        android:drawableLeft="@drawable/mail"
+        android:autoLink="web" />
 </LinearLayout>
