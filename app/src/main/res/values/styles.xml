@@ -18,6 +18,15 @@
         <item name="android:scaleType">center</item>
     </style>
 
+    <style name="ImageStyle2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/padding_top_1</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
     <!-- Setting style of View -->
     <style name="StyleTextView">
         <item name="android:layout_width">match_parent</item>
@@ -27,7 +36,7 @@
 
     <style name="StyleTextView1" parent="StyleTextView">
         <item name="android:textSize">@dimen/text_size_28</item>
-        <item name="android:paddingTop">@dimen/padding_top_2</item>
+        <item name="android:paddingTop">@dimen/padding_top_3</item>
         <item name="android:paddingLeft">@dimen/padding_left_2</item>
         <item name="android:textStyle">bold</item>
     </style>

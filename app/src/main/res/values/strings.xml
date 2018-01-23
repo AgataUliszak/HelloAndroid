@@ -3,5 +3,6 @@
     <string name="phone">" 650-555-5555"</string>
     <string name="web">" www.udacity.com"</string>
     <string name="address">" 2465 Latham St,\n Mountain View,\n CA 94043 "</string>
+    <string name="address2">" 2465 Latham St, Mountain View,\n CA 94043 "</string>
     <string name="name">Udacity</string>
 </resources>

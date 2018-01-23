@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <ImageView
+        style="@style/ImageStyle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/udacity2" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_1"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/padding_top_1">
+
+        <TextView
+            style="@style/StyleTextView2"
+            android:layout_marginRight="@dimen/layout_margin_1"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/phone"
+            android:text="@string/phone" />
+
+        <TextView
+            style="@style/StyleTextView2"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/mail"
+            android:text="@string/web"
+            android:textColorLink="@color/colorPrimary" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/StyleTextView2"
+        android:layout_marginLeft="@dimen/layout_margin_1"
+        android:drawableLeft="@drawable/place"
+        android:lineSpacingExtra="@dimen/extra_spacing"
+        android:text="@string/address2" />
+
+</LinearLayout>

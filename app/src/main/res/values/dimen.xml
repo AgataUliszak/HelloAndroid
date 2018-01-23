@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="padding_top_3">65dp</dimen>
+    <dimen name="padding_top_3">60dp</dimen>
     <dimen name="padding_top_2">40dp</dimen>
     <dimen name="padding_top_1">20dp</dimen>
     <dimen name="padding_left_2">40dp</dimen>
     <dimen name="text_size_24">24dp</dimen>
     <dimen name="text_size_28">28dp</dimen>
+    <dimen name="layout_margin_1">20dp</dimen>
     <dimen name="layout_margin">40dp</dimen>
     <dimen name="extra_spacing">2dp</dimen>
 </resources>
